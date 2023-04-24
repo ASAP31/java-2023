@@ -28,7 +28,7 @@ public class Student {
 		System.out.println("나이"+getAge());
 		System.out.println("학년"+getGrade());
 		System.out.println("번호"+getNumber());
-		System.out.println("몸무게"+getWeight());
+		System.out.println("몸무게1"+getWeight());
 		
 	}
 	
