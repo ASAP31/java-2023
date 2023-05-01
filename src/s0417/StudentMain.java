@@ -11,7 +11,7 @@ public class StudentMain {
 		hong.name="홍길동";
 		hong.number=25;
 		hong.printALL();
-
+//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
 	}
 
 }
