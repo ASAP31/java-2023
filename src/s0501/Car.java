@@ -5,6 +5,26 @@ public class Car {
 	String color;
 	int    speed;
 	int 	km;
+	static int count;
+	
+	
+	 Car(){
+		count++;
+		 System.out.println("총 차의 대수:"+count);
+	}
+	 Car(String name){
+		 owner = name;
+		 count++;
+		 System.out.println("총 차의 대수:"+count);
+	 }
+	 Car(String name,String col,int speed){
+		owner = name;
+		color=col;
+		this.speed = speed;
+		count++;
+		 System.out.println("총 차의 대수:"+count);
+		
+	}
 	
 	//생성자
 	

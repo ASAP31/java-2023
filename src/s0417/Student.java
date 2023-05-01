@@ -8,7 +8,7 @@ public class Student {
 	int number;
 	double weight;
 	//생산자
-			Student(){
+	public Student(){
 				weight = 50;
 			};
 	
